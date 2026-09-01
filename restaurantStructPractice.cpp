@@ -6,13 +6,29 @@ struct restaurant {
     string name;
     string address;
     string cuisine;
-    bool isChain;
+    int locations; 
     float rating; //rating out of 5
 
 };
 
-int main () {
+restaurant createRestaurant();
 
+int main () {
+    cout << "Hi, you will enter a new restaurant into the system! Ready?" << endl;
+    createRestaurant();
     return 0;
 }
 
+restaurant createRestaurant() {
+    restaurant newRestaurant;
+    
+    cout << "Enter name, address, cuisine, number of locations, and rating for new restaurant, each followed by a return" << endl;
+    cin >> newRestaurant.name;
+    cin >> newRestaurant.address;
+    cin >> newRestaurant.cuisine;
+    cin >> newRestaurant.locations;
+    cin >> newRestaurant.rating;
+
+    return newRestaurant;
+    
+}
