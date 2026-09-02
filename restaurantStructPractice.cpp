@@ -8,10 +8,11 @@ struct restaurant {
     string cuisine;
     int locations; 
     float rating; //rating out of 5
-
 };
 
+// Prompts user to enter the 5 components of a restaurant and returns a restaurant struct with those values
 restaurant createRestaurant();
+// prints all compnenets of input restaurant to console
 void printRestaurant(restaurant);
 
 int main () {
@@ -25,11 +26,15 @@ int main () {
 restaurant createRestaurant() {
     restaurant newRestaurant;
     
-    cout << "Enter name, address, cuisine, number of locations, and rating for new restaurant, each followed by a return" << endl;
+    cout << "The name is: ";
     getline(cin, newRestaurant.name);
+    cout << "The address is: ";
     getline(cin, newRestaurant.address);
+    cout << "The cuisine is: ";
     getline(cin, newRestaurant.cuisine);
+    cout << "The restaurant has this many locations: ";
     cin >> newRestaurant.locations;
+    cout << "The restaurants rating out of 5 is: ";
     cin >> newRestaurant.rating;
 
     return newRestaurant;
