@@ -1,3 +1,9 @@
+//************************
+// COMSC-210
+// Lab 3 - Restaurant Struct
+// Mae Schweller
+//************************
+
 #include <iostream>
 
 using namespace std;
@@ -25,7 +31,6 @@ int main () {
 
 restaurant createRestaurant() {
     restaurant newRestaurant;
-    
     cout << "The name is: ";
     getline(cin, newRestaurant.name);
     cout << "The address is: ";
