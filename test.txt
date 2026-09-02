@@ -1,0 +1,51 @@
+Hi, you will enter a new restaurant into the system! Ready?
+The name is: food place
+The address is: 123 west d street
+The cuisine is: good food
+The restaurant has this many locations: 1000
+The restaurants rating out of 5 is: 1
+The restuarant you entered is:
+Name: food place
+Address: 123 west d street
+Cuisine: good food
+Locations: 1000
+Rating: 1/5
+
+Hi, you will enter a new restaurant into the system! Ready?
+The name is: Yan's Garden
+The address is: 2223 Morello ave
+The cuisine is: Chinese
+The restaurant has this many locations: 1
+The restaurants rating out of 5 is: 4.7
+The restuarant you entered is:
+Name: Yan's Garden
+Address: 2223 Morello ave
+Cuisine: Chinese
+Locations: 1
+Rating: 4.7/5
+
+Hi, you will enter a new restaurant into the system! Ready?
+The name is: Purrfect Pizza
+The address is: 1889 Kitty Blvd
+The cuisine is: Pizza (for cats)
+The restaurant has this many locations: 3
+The restaurants rating out of 5 is: 4.3
+The restuarant you entered is:
+Name: Purrfect Pizza
+Address: 1889 Kitty Blvd
+Cuisine: Pizza (for cats)
+Locations: 3
+Rating: 4.3/5
+
+Hi, you will enter a new restaurant into the system! Ready?
+The name is: Mae's Morsels   
+The address is: 4881 Main st, Benicia, CA
+The cuisine is: Tasty Treats
+The restaurant has this many locations: 1
+The restaurants rating out of 5 is: 5
+The restuarant you entered is:
+Name: Mae's Morsels
+Address: 4881 Main st, Benicia, CA
+Cuisine: Tasty Treats
+Locations: 1
+Rating: 5/5
