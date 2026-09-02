@@ -23,9 +23,9 @@ restaurant createRestaurant() {
     restaurant newRestaurant;
     
     cout << "Enter name, address, cuisine, number of locations, and rating for new restaurant, each followed by a return" << endl;
-    cin >> newRestaurant.name;
-    cin >> newRestaurant.address;
-    cin >> newRestaurant.cuisine;
+    getline(cin, newRestaurant.name);
+    getline(cin, newRestaurant.address);
+    getline(cin, newRestaurant.cuisine);
     cin >> newRestaurant.locations;
     cin >> newRestaurant.rating;
 
