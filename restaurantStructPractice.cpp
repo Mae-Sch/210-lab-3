@@ -12,7 +12,7 @@ struct restaurant {
 };
 
 restaurant createRestaurant();
-// void printRestaurant(restaurant);
+void printRestaurant(restaurant);
 
 int main () {
     cout << "Hi, you will enter a new restaurant into the system! Ready?" << endl;
@@ -32,4 +32,12 @@ restaurant createRestaurant() {
 
     return newRestaurant;
     
+}
+
+void printRestaurant(restaurant inputRestaurant) {
+    cout << "Name: " << inputRestaurant.name << endl;
+    cout << "Address: " << inputRestaurant.address << endl;
+    cout << "Cuisine: " << inputRestaurant.cuisine << endl;
+    cout << "Locations: " << inputRestaurant.locations << endl;
+    cout << "Rating: " << inputRestaurant.rating << "/5\n";
 }
