@@ -16,7 +16,9 @@ void printRestaurant(restaurant);
 
 int main () {
     cout << "Hi, you will enter a new restaurant into the system! Ready?" << endl;
-    createRestaurant();
+    restaurant testRestaurant = createRestaurant();
+    cout << "The restuarant you entered is:\n"; 
+    printRestaurant(testRestaurant);
     return 0;
 }
 
@@ -31,7 +33,6 @@ restaurant createRestaurant() {
     cin >> newRestaurant.rating;
 
     return newRestaurant;
-    
 }
 
 void printRestaurant(restaurant inputRestaurant) {
